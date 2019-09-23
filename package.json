@@ -1,6 +1,6 @@
 {
   "name": "testcafe-browser-provider-dappeteer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dappeteer TestCafe browser provider plugin.",
   "repository": " ",
   "homepage": "https://www.google.com",
@@ -26,9 +26,8 @@
   "license": "MIT",
   "dependencies": {
     "babel-runtime": "^6.11.6",
-    "fs": "0.0.1-security",
-    "selenium-webdriver": "^4.0.0-alpha.1",
     "dappeteer": "^0.2.1",
+    "fs": "0.0.1-security",
     "puppeteer": "^1.4.0"
   },
   "devDependencies": {
