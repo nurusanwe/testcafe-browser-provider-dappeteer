@@ -1,9 +1,9 @@
 {
   "name": "testcafe-browser-provider-dappeteer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "dappeteer TestCafe browser provider plugin.",
   "repository": " ",
-  "homepage": "https://www.google.com",
+  "homepage": "https://github.com/nurusanwe/testcafe-browser-provider-dappeteer",
   "author": {
     "name": "Romain Gardet",
     "email": "gardet.romain@gmail.com"
