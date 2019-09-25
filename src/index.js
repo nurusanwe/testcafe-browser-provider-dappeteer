@@ -5,7 +5,6 @@ import dappeteer from 'dappeteer';
 export default {
     // Multiple browsers support
     isMultiBrowser: false,
-
     browser:        null,
     openedPages:    {},
     metamask:       null,
