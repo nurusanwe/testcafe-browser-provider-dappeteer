@@ -2,6 +2,9 @@
 
 This is the **dappeteer** browser provider plugin for [TestCafe](http://devexpress.github.io/testcafe).
 
+## WIP
+Feel free to contribute to this project. We want to be able to do clean end to end testing for Ethereum. Testcafe and dappeteer seems a good way to achieve this goal. A better testcafe provider will be the first step :) 
+
 ## Install
 
 ```
