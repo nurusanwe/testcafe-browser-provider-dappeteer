@@ -36,5 +36,42 @@ testCafe
     .run();
 ```
 
+In your testing code :
+```js
+import { Selector } from 'testcafe'; 
+import { getMetamask } from 'testcafe-browser-provider-dappeteer';
+
+const default_mmemo = 'stumble story behind hurt patient ball whisper ...';
+
+fixture `Connexion`
+    .page `http://app.auctionity.com`
+    .beforeEach( async t => {
+        const metamask = await getMetamask(t);
+        try {
+          await metamask.lock()  // If user is not created, it will throw here, creating a new imported seed account
+          console.log("Unlocking account...")
+          await metamask.unlock();
+        } catch (_error) {
+          console.log("Creating an account...")
+          // Import default mmemonic
+          await metamask.importAccount(default_mmemo);
+        }
+        // Change network if you want
+        //await metamask.switchNetwork('mainnet');
+    });
+    
+ test('Use MM', async t => {
+  const metamask = await getMetamaskInstance(t);
+  const mintButton = await Selector('#mint');
+  
+  // Click to mint tokens
+  await mintButton.click();
+
+  // Click to confirm transaction at Metamask
+  await metamask.confirmTransaction();
+});
+
+ ```
+
 ## Author
 Romain Gardet
