@@ -40,10 +40,10 @@
     "del": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^6.1.2",
-    "gulp-eslint": "^3.0.1",
-    "gulp-mocha": "^7.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "^8.0.0",
     "node-version": "^1.0.0",
-    "publish-please": "^5.5.1",
-    "typedoc": "^0.15.0"
+    "publish-please": "^5.5.2",
+    "typedoc": "^0.23.2"
   }
 }
