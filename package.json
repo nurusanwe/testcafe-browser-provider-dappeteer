@@ -39,7 +39,7 @@
     "babel-preset-stage-3": "^6.11.0",
     "del": "^2.0.0",
     "gulp": "^4.0.2",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^8.0.0",
     "gulp-eslint": "^6.0.0",
     "gulp-mocha": "^8.0.0",
     "node-version": "^1.0.0",
